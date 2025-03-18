@@ -25,91 +25,110 @@ import Toast from './components/toast.jsx';
 function App() {
   return (
     <>
-
       <h1>Hola mundo, si furula esta onda</h1>
 
-      <h3>Accordion</h3>
-      <Accordion />
-      <br />
+      <div className="component-container">
+        <h3>Accordion</h3>
+        <Accordion />
+      </div>
 
-      <h3>Alert</h3>
-      <Alert />
-      <br />
+      <div className="component-container">
+        <h3>Alert</h3>
+        <Alert />
+      </div>
 
-      <h3>BtnGroup</h3>
-      <BtnGroup />
-      <br />
+      <div className="component-container">
+        <h3>BtnGroup</h3>
+        <BtnGroup />
+      </div>
 
-      <h3>BtnSuccess</h3>
-      <BtnSuccess />
-      <br />
+      <div className="component-container">
+        <h3>BtnSuccess</h3>
+        <BtnSuccess />
+      </div>
 
-      <h3>Card</h3>
-      <Card />
-      <br />
+      <div className="component-container">
+        <h3>Card</h3>
+        <Card />
+      </div>
 
-      <h3>Carrusel</h3>
-      <Carrusel />
-      <br />
+      <div className="component-container">
+        <h3>Carrusel</h3>
+        <Carrusel />
+      </div>
 
-      <h3>Close</h3>
-      <Close />
-      <br />
+      <div className="component-container">
+        <h3>Close</h3>
+        <Close />
+      </div>
 
-      <h3>Colapse</h3>
-      <Colapse />
-      <br />
+      <div className="component-container">
+        <h3>Colapse</h3>
+        <Colapse />
+      </div>
 
-      <h3>DropDown</h3>
-      <DropDown />
-      <br />
+      <div className="component-container">
+        <h3>DropDown</h3>
+        <DropDown />
+      </div>
 
-      <h3>Form</h3>
-      <Form />
-      <br />
+      <div className="component-container">
+        <h3>Form</h3>
+        <Form />
+      </div>
 
-      <h3>List</h3>
-      <List />
-      <br />
+      <div className="component-container">
+        <h3>List</h3>
+        <List />
+      </div>
 
-      <h3>Modal</h3>
-      <Modal />
-      <br />
+      <div className="component-container">
+        <h3>Modal</h3>
+        <Modal />
+      </div>
 
-      <h3>Nav</h3>
-      <Nav />
-      <br />
+      <div className="component-container">
+        <h3>Nav</h3>
+        <Nav />
+      </div>
 
-      <h3>OffCanvas</h3>
-      <OffCanvas />
-      <br />
+      <div className="component-container">
+        <h3>OffCanvas</h3>
+        <OffCanvas />
+      </div>
 
-      <h3>Pagination</h3>
-      <Pagination />
-      <br />
+      <div className="component-container">
+        <h3>Pagination</h3>
+        <Pagination />
+      </div>
 
-      <h3>PlaceHolder</h3>
-      <PlaceHolder />
-      <br />
+      <div className="component-container">
+        <h3>PlaceHolder</h3>
+        <PlaceHolder />
+      </div>
 
-      <h3>PopOver</h3>
-      <PopOver />
-      <br />
+      <div className="component-container">
+        <h3>PopOver</h3>
+        <PopOver />
+      </div>
 
-      <h3>Selector</h3>
-      <Selector />
-      <br />
+      <div className="component-container">
+        <h3>Selector</h3>
+        <Selector />
+      </div>
 
-      <h3>Spy</h3>
-      <Spy />
-      <br />
+      <div className="component-container">
+        <h3>Spy</h3>
+        <Spy />
+      </div>
 
-      <h3>Toast</h3>
-      <Toast />
-      <br />
-
+      <div className="component-container">
+        <h3>Toast</h3>
+        <Toast />
+      </div>
     </>
   );
 }
 
 export default App;
+
